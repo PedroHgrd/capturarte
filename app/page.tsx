@@ -24,9 +24,9 @@ export default function Home() {
     "Dr. Marcos Pereira acabou de garantir o Capturarte Odonto 📸",
     "Clínica Dental Prime comprou agora",
     "Dra. Beatriz Almeida garantiu o acesso vitalício!",
-    "Dr. Eduardo Rocha acabou de se inscrever 📸",
+    "Dr. Eduardo Rocha acabou de entrar na turma 📸",
     "Dra. Camila Ferreira garantiu seu acesso",
-    "Clínica Odonto Vida comprou agora",
+    "Clínica Odonto Premium comprou agora",
   ]
 
   const testimonials = [
@@ -499,7 +499,7 @@ export default function Home() {
               <div className="bg-gradient-to-r from-[#9c1030]/20 to-[#9c1030]/10 border border-[#9c1030]/30 rounded-xl p-6 mt-8">
                 <p className="text-2xl font-bold text-white">
                   O investimento é de apenas{" "}
-                  <span className="text-[#9c1030] text-3xl text-[rgba(8,128,4,1)]">R$19,90</span>, com acesso vitalício
+                  <span className="text-[#9c1030] text-3xl text-[rgba(8,128,4,1)]">R$47,90</span>, com acesso vitalício
                   e garantia incondicional de 7 dias.
                 </p>
               </div>
@@ -508,12 +508,12 @@ export default function Home() {
             <div className="text-center space-y-6 pt-6">
               <div className="space-y-2">
                 <p className="text-lg text-[rgba(255,26,5,0.7)]">De R$97,00 por apenas:</p>
-                <div className="text-5xl md:text-6xl font-bold text-[rgba(8,128,4,1)]">R$19,90</div>
+                <div className="text-5xl md:text-6xl font-bold text-[rgba(8,128,4,1)]">R$47,90</div>
                 <p className="text-white/60">Acesso vitalício + Garantia de 7 dias</p>
               </div>
 
               <a
-                href="https://pay.cakto.com.br/52j9f7u_626735"
+                href="https://ggcheckout.app/checkout/v2/LM8cYHD1qrsf0TDGqZsv"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block w-full md:w-auto"
@@ -522,7 +522,7 @@ export default function Home() {
                   size="lg"
                   className="w-full md:w-auto bg-[#9c1030] hover:bg-[#9c1030]/90 px-4 md:px-12 py-4 md:py-8 text-sm md:text-xl font-bold rounded-xl shadow-2xl shadow-[#9c1030]/30 hover:scale-105 transition-all text-center text-[rgba(14,248,6,1)] whitespace-normal leading-tight"
                 >
-                  Quero garantir meu acesso por apenas R$19,90
+                  Quero garantir meu acesso por apenas R$47,90
                 </Button>
               </a>
 
@@ -543,7 +543,7 @@ export default function Home() {
             <div className="text-sm text-white/60 text-center md:text-left">
               Este site não faz parte do site do Facebook nem do Facebook Inc. Além disso, este site NÃO é endossado
               pelo Facebook de forma alguma. FACEBOOK é uma marca registrada da FACEBOOK, Inc.
-              <br />© 2025 Capturarte Odonto. Todos os direitos reservados.
+              <br />© 2026 Capturarte Odonto. Todos os direitos reservados.
             </div>
             <div className="flex items-center gap-6">
               <a href="#" className="text-sm text-white/60 hover:text-white transition-colors">
