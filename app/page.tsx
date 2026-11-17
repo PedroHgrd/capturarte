@@ -142,9 +142,9 @@ export default function Home() {
             </div>
 
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight tracking-tight">
-              <span className="block text-balance">Dentista Transforme seus casos</span>
+              <span className="block text-balance bg-[rgba(71,57,57,0.02)] text-[#ffffff]">Transforme as fotos de seus casos</span>
               <span className="block text-balance">em verdadeiras</span>
-              <span className="block text-balance bg-gradient-to-r from-white via-white to-white/60 bg-clip-text text-transparent">
+              <span className="block text-balance bg-[#ff0000]">
                 obras de arte
               </span>
             </h1>
@@ -154,8 +154,7 @@ export default function Home() {
             </p>
 
             <p className="text-base md:text-lg max-w-2xl mx-auto text-balance leading-relaxed italic font-sans text-[rgba(255,255,255,1)]">
-              Domine a arte da fotografia odontológica com o método Capturarte Odonto e destaque seus resultados
-              clínicos com imagens que encantam, vendem e fortalecem sua autoridade profissional.
+              Domine a arte da fotografia com o método Capturarte Odonto e destaque seus resultados com imagens que encantam, vendem e fortalecem sua autoridade profissional.
             </p>
           </div>
         </div>
@@ -431,7 +430,7 @@ export default function Home() {
             <Shield className="w-12 h-12 text-[#9c1030] mx-auto mb-4" />
             <p className="text-lg leading-relaxed text-white/90">
               E tudo isso com <span className="text-[#9c1030] font-semibold">acesso vitalício</span> e{" "}
-              <span className="text-[#9c1030] font-semibold">garantia incondicional de 7 dias</span>, para você aprender
+              <span className="text-[#dcff02] font-semibold">garantia incondicional de 7 dias</span>, para você aprender
               sem riscos.
             </p>
           </div>
@@ -513,7 +512,7 @@ export default function Home() {
               </div>
 
               <a
-                href="https://ggcheckout.app/checkout/v2/LM8cYHD1qrsf0TDGqZsv"
+                href="https://link.syncpayments.com.br/fkq566"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block w-full md:w-auto"
