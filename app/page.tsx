@@ -538,22 +538,31 @@ export default function Home() {
       {/* Footer */}
       <footer className="py-12 px-4 border-t border-white/10">
         <div className="container mx-auto max-w-6xl">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             <div className="text-sm text-white/60 text-center md:text-left">
               Este site não faz parte do site do Facebook nem do Facebook Inc. Além disso, este site NÃO é endossado
               pelo Facebook de forma alguma. FACEBOOK é uma marca registrada da FACEBOOK, Inc.
               <br />© 2026 Capturarte Odonto. Todos os direitos reservados.
             </div>
-            <div className="flex items-center gap-6">
-              <a href="#" className="text-sm text-white/60 hover:text-white transition-colors">
-                Privacidade
-              </a>
-              <a href="#" className="text-sm text-white/60 hover:text-white transition-colors">
-                Termos
-              </a>
-              <a href="#" className="text-sm text-white/60 hover:text-white transition-colors">
-                Contato
-              </a>
+            <div className="flex flex-col sm:flex-row items-center gap-5">
+              <div className="flex items-center gap-3 rounded-xl border border-white/10 bg-white/5 px-4 py-3">
+                <Shield className="h-5 w-5 shrink-0 text-emerald-400" aria-hidden="true" />
+                <div>
+                  <p className="text-sm font-semibold text-white">Transação segura</p>
+                  <p className="text-xs text-white/60">Pagamento processado pela SyncPayments</p>
+                </div>
+              </div>
+              <nav aria-label="Links do rodapé" className="flex items-center gap-5">
+                <a href="#" className="text-sm text-white/60 hover:text-white transition-colors">
+                  Privacidade
+                </a>
+                <a href="#" className="text-sm text-white/60 hover:text-white transition-colors">
+                  Termos
+                </a>
+                <a href="#" className="text-sm text-white/60 hover:text-white transition-colors">
+                  Contato
+                </a>
+              </nav>
             </div>
           </div>
         </div>
